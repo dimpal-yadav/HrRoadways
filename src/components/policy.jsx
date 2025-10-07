@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { 
   Globe, 
   MapPin, 
-  Shield, 
+  Shield,
   Phone, 
   Mail, 
   CreditCard, 
@@ -320,5 +320,6 @@ const InfoPage = ({ initialLanguage = 'en' }) => {
     </div>
   );
 };
+
 
 export default InfoPage;
